@@ -37,6 +37,7 @@ public class EnemyManager : MonoBehaviour
     {
         if (instance == null)
         {
+            // this gets thrown sometimes during scene unload, since enemymanager gets removed before enemies
             Debug.LogError("EnemyManager instance is null!");
         }
 
