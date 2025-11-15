@@ -54,7 +54,8 @@ public class EnemyManager : MonoBehaviour
         Vector2 playerPosition = playerTransform.position;
         foreach (Enemy enemy in enemies)
         {
-            MoveEnemyAwayFromPlayer(enemy, playerPosition);
+            if (enemy.CanMove)
+                MoveEnemyAwayFromPlayer(enemy, playerPosition);
         }
     }
 
