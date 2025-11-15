@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2688147860108905813, guid: c9257c691753b6e41886c254bf5c4970, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688147860108905813, guid: c9257c691753b6e41886c254bf5c4970, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 2808109823723452303, guid: c9257c691753b6e41886c254bf5c4970, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -102,5 +110,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b0daed9edeb9d48be2f6ace97f22c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  movementSpeed: 1
+  movementSpeed: 0.5
   circleCollider: {fileID: 2153493731453428107}
