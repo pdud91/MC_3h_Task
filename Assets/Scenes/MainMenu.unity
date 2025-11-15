@@ -903,6 +903,38 @@ PrefabInstance:
       propertyPath: m_Navigation.m_SelectOnDown
       value: 
       objectReference: {fileID: 1821319939}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5719944399590203169}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManagementUtils, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545539358478796568, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5037675122751116541, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1071,6 +1103,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2243116024874059025, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5719944399590203169}
     - targetCorrespondingSourceObject: {fileID: 6673351181691392726, guid: f80264a2c524394479a6a6c3370757b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1134924730}
@@ -1091,6 +1126,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &5719944399590203169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5719944399590203167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94755904cefde7e4cab74ccce0614400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneManagementUtils
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
